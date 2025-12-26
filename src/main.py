@@ -6,4 +6,5 @@ def main(page: ft.Page):
     page.window.maximized = True
 
 
-ft.run(main)
+if __name__ == "__main__":
+    ft.run(main)
